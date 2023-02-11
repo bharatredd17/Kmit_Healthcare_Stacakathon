@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhomepage">
+        <div class="homepage">
+            <h1 class="headings">WE CARE HOSPITALS</h1>
+            <div class="homepicture"></div>
+            <h1 class="heading">We care for you..</h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="buttonsconatiner">
+                    <button class="buttons" onclick="display('sectionhome')">ABOUT US</button>
+                    <button class="buttons" onclick="display('sectionlogin')">PATIENT LOGIN</button>
+                    <button class="buttons" onclick="display('sectionmedicines')">MEDICAL STORE</button>
+                    <button class="buttons" onclick="display('sectionremainder')">REMAINDER</button>
+                    <button class="buttons" onclick="display('sectioncontact')">CONTACT US</button>
+                    <button class="buttons" onclick="display('sectionDOCTORS')">FRIENDLY SERVICE</button>
+                </div>
+                <div class="logocontainer"></div>
+            </div>
+
+                
+        </div>
+    </div>
+    <div id="sectionhome">
+
+        <h1>We care about your health</h1>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposedIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed</p>
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://thelifelinehospitals.com/wp-content/uploads/2022/12/life-line-25-year-celebrations-banner-min.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="data:image/png;base64,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" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <h1>Facilities Available</h1>
+        <p>We provide 24/7 health care services.</p>
+        <p>200 beded hospital.</p>
+        <p>Latest technology and HI-TECH LAB facilities</p>
+        <p>Friendly Service.</p>
+        <p>Specialised Doctors are available for every domain</p>
+        <h1>Our Achievements</h1>
+        <ol>
+            <li>More than 20,000 cardiac procedures every year</li>
+            <li>First Inter-State Heart transplantation in the region</li>
+            <li>PTE procedures in Pulmonology Embolism in collaboration with surgeons of Duke University, USA</li>
+            <li>Treated World’s largest number (10000*) of cancer patients with RapidArc Technology (*Source: Varian Medical Systems, USA)</li>
+            <li>First in India to implement 4D gated RapidArc for the treatment of moving tumors</li>
+        </ol>
+        <button class="btn btn-primary" onclick="display('sectionhomepage')">Back</button>
+
+    </div>
+
+    <div id="sectionmedicines">
+        <div class="text">
+            <div class="gill">
+
+                <HEAD>
+                    <TITLE>FRAME TAG</TITLE>
+                </HEAD>
+                <h1 class="dhoni">WE CARE MEDICAL STORE</h1>
+                <h1 class="kohli">WE CARE FOR YOU</h1>
+                <img src="https://www.drspharma.in/wp-content/uploads/2020/05/drs-pharma-medicine-home-delivery-600x480px.jpg" class="text" width="150">
+                <font color="blue" size="200">Please uplaod your prescription</font><br><br>
+                <input type="file" name="file" accept=" "><br><br>
+                <font size="5">Enter your address<br>
+                    Street: <input type="text"><br><br>
+                    Village: <input type="text"><br><br>
+                    Mandal: <input type="text"><br><br>
+                    District:<input type="text"><br><br>
+                    State: <input type="text"><br><br>
+                    <FONT COLOR="RED" SIZE="20">Payment method</FONT><br>
+                    <input type="checkbox" name="Payment method">PAYTM<BR>
+                    <input type="checkbox" name="Payment method">PHONE PAY<BR>
+                    <input type="checkbox" name="Payment method">G-PAY<BR>
+                    <input type="checkbox" name="Payment method">NET BANKING<BR>
+                    <img src="https://e7.pngegg.com/pngimages/218/831/png-clipart-servpro-of-greensboro-north-business-24-7-service-blog-24-hours-text-service.png" align="left" width="350px">
+                    <img src="https://www.way2smile.com/blog/wp-content/uploads/2020/12/patient-monitoring-410x270.png" align="right"><br><br><br>
+                    <br><br><br><br>
+                    <button class="btn btn-primary" onclick="display('sectionpayment')">CONFIRM PAYMENT</button align="center">
+
+                    <br> <button onclick="display('sectionhomepage')">BACK</button><br>
+            </div>
+        </div>
+    </div>
+    <div id="sectionpayment">
+        <div class="text">
+            <HTML>
+
+            <BODY>
+                <FONT COLOR="BLUE" SIZE="200">THANK YOU</FONT><BR><BR><BR>
+                YOUR MEDICINE WILL BE DELIVERED WITHIN 24HOURS
+            </BODY>
+
+            </HTML>
+            <br> <button onclick="display('sectionhomepage')">back</button> </br>
+        </div>
+    </div>
+    <div id="sectionDOCTORS">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qht-SZFWyF8?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn btn-primary" onclick="display('sectionhomepage')">Back</button>
+
+    </div>
+    <div id="sectionlogin">
+        <div class="text">
+            <div class="gill">
+
+
+                <HEAD>
+                    <TILTLE>LOGIN HERE</TITLE>
+                </HEAD>
+
+                <div>
+                    <BR>
+                    <BR>
+                    USERNAME:<INPUT TYPE="TEXT" NAME="USERNAME" VALUE=" ">
+                    <BR><BR>
+                    PASSWORD:<INPUT TYPE="PASSWORD" NAME="PASSWORD" VALUE="">
+                    <BR><BR>
+                    <button onclick="display('sectionlogin1')">LOGIN</button>
+                    <br> Don't have an account?</br>
+                    <button class="btn btn-primary" onclick="display('sectionsignup')">SIGN UP</button>
+                    <br>
+                    <button onclick="display('sectionhomepage')">BACK</button> <br>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div id="sectionsignup">
+        <div class="text">
+            <HTML>
+
+            <BODY bgcolor="blue">
+                USER NAME:<INPUT TYPE="TEXT" NAME="USERNAME" VALUE=""><BR><BR>
+                CREATE PASSWORD:<INPUT TYPE="PASSWORD" NAME="PASSWORD" VALUE=""><BR><BR>
+                CONFIRM PASSWORD:<INPUT TYPE="PASSWORD" NAME="PASSWORD" VALUE=""><BR><BR>
+                <button onclick="display('sectionlogin1')">LOGIN</button>
+            </BODY>
+
+            </HTML>
+        </div>
+    </div>
+    <div id="sectionlogin1">
+        <div class="text">
+            <div class="kl">
+
+
+
+                <HEAD>
+                    <TITLE>REGISTRATION FORM</TITLE>
+                </HEAD>
+
+                <BODY>
+                    <FONT COLOR="BROWN" SIZE="20">FILL THE GIVEN FORM</FONT><BR><BR>
+                    <u><b>
+                            <FONT COLOR="BLACK" SIZE="5">GENDER<FONT><BR><BR>
+                        </b></u>
+                    <INPUT TYPE="RADIO" NAME="GENDER">MALE<br>
+                    <INPUT TYPE="RADIO" NAME="GENDER">FEMALE<br><BR>
+                    Phone number:<input type="text" name="phone number:" value="+91" size="10"><br><Br>
+                    <u><b>
+                            <FONT COLOR="BLACK" SIZE="5">SUFFERING WITH<FONT>
+                        </b></u><BR><BR>
+                    <INPUT TYPE="CHECKBOX" NAME="SUFFERING WITH">SKIN DISEASE<br>
+                    <INPUT TYPE="CHECKBOX" NAME="SUFFERING WITH">EAR DISEASE<br>
+                    <INPUT TYPE="CHECKBOX" NAME="SUFFERING WITH">HEART DISEASE<br>
+                    <INPUT TYPE="CHECKBOX" NAME="SUFFERING WITH">EYE DISEASE<br><BR>
+                    <u><b>
+                            <FONT COLOR="BLACK">Describe about your disease<FONT><br>
+                        </b></u>
+                    <textarea rows="10" columns="60"></textarea><BR>
+                    <BR>
+                    <button onclick="display('sectionsubmit')">SUBMIT</button>
+                    <br>
+                    <button onclick="display('sectionlogin')">BACK</button>
+                    </br>
+
+                </BODY>
+
+
+            </div>
+        </div>
+    </div>
+    <div id="sectionsubmit">
+        <div class="text">
+            <div class="gill">
+                <div></div><I>
+                    To communicate with your concern Doctor.
+                    <br>Please click below<br>
+                </I>
+                <a href="https://instagram.com/mr_ajaykumar_321?igshid=OGQ2MjdiOTE=">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBgDCKYrNu4bMlc0N1spoh41qOarMgwyE4eA&usqp=CAU" class="insta" />
+                </a>
+
+                <br><br>
+                <B>
+                    <font color="brown">Please upload the blood test report</font><br>
+                    <input type="file" name="file" accept=" ">
+                </B><br><br>
+                <B>
+                    <font color="brown">If you have any rashes upload the respective picture</font><br>
+                    <input type="file" name="file" accept=" "><br>
+                    Describe about your symptom<br>
+                    <textarea rows="10" columns="200"></textarea><br><br>
+                    <B>
+                        <font color="brown">If you have itching upload the respective picture</font><br>
+                        <input type="file" name="file" accept=" "><br>
+                        Describe about your symptom<br>
+                        <textarea rows="10" columns="200"></textarea><br><BR>
+                        After going through your photos and blood test report.<br>
+                        I got clarity about your disease.So,I suggest you the following <br> medicine.<br><br>
+                        <input type="file" name="file" accept=" "><br><br>
+                        <button class="btn btn-primary" onclick="display('sectionmedicines')">click here to got to medical store</button>
+                        <br> <button onclick="display('sectionhomepage')">back</button></br>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div id="sectionremainder">
+        <div class="text">
+            <HTML>
+
+            <HEAD>
+                <TILTLE>
+                    <H3><U><B>KNOW YOUR TIMINGS HERE:</U></b></H3>
+                    </TITLE>
+            </HEAD>
+
+            <BODY>
+                <BR>
+                <BR>
+                PRESCRIPTION NUMBER:<INPUT TYPE="TEXT" NAME="PRESCRIPTION NO:" VALUE=" ">
+                <BR><BR>
+                <button onclick="display('sectionps1')">CHECK HERE</button><BR><BR>
+
+                <button onclick="display('sectionhomepage')">BACK</button> <br>
+            </BODY>
+
+
+            </HTML>
+        </div>
+    </div>
+    <div id="sectioncontact">
+        <div class="gill">
+            <div class="text">
+                <a href="https://instagram.com/we_carehospital?igshid=OGQ2MjdiOTE=">
+                    <img src="https://img.etimg.com/thumb/msid-70408529,width-650,height-488,imgsize-166495,,resizemode-75/instagram.jpg" class="insta" />
+                </a>
+                <p>moblie number:9381704183</p>
+                <p>E-mail id:wecareforus@gmail.com</p>
+                <a href="">wecarehospitals.com</a>
+
+                <div class="justify-content-last">
+                    <button class="btn btn-primary" onclick="display('sectionhomepage')">Back</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="sectionps1">
+        <div class="text">
+            <div class="gill">
+                <table border="5">
+                    <MARQUEE>
+                        <FONT COLOR="BLUE" SIZE="20">WE CARE FOR YOU</FONT>
+                    </MARQUEE>
+                    <caption>
+                        <h3>
+                            <font color="brown"><B><u>Please take the medicines accordingly</u></b></font>
+                            <h3>
+                    </caption>
+                    <TR>
+                        <TH>S.NO</TH>
+                        <TH>MEDICINES</TH>
+                        <TH>TIMINGS</TH>
+                    </TR>
+                    <TR></TR>
+                    <TH>1</TH>
+                    <TD>Medicine 1</TD>
+                    <TD></TD>
+                    </TR>
+                    <TR>
+                        <TH>2</TH>
+                        <TD>Medicine 2</TD>
+                        <TD></TD>
+                    </TR>
+                    <TR>
+                        <TH>3</TH>
+                        <TD>Medicine 3</TD>
+                        <TD></TD>
+                    </TR>
+                    <TR>
+                        <TH>4</TH>
+                        <TD>Medicine 4</TD>
+                        <TD></TD>
+                    </TR>
+                    <TR>
+                        <TH>5</TH>
+                        <TD>Medicine 5</TD>
+                        <TD></TD>
+                    </TR>
+                    <h2><I>We request you to set the remainders in your mobile accordingly as provided below</h2></i>
+                    <button onclick="display('sectionhomepage')">BACK</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

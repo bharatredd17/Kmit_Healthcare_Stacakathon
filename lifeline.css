@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.homepage {
+    background-image: url("https://images.app.goo.gl/j64ZH6mGgnjr7FHV7");
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.hospitalname {
+    text-align: center;
+    font-size: 75px;
+    font-family: "bree-serif";
+}
+
+.button {
+    font-size: 30px;
+    font-style: italic;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.insta {
+    height: 10vh;
+}
+
+.text {
+    text-align: center;
+}
+
+.homepage {
+    background-color: lightblue;
+    height: 200vh;
+    width: 100vw;
+    padding: 15px;
+}
+
+.headings {
+    font-family: "italic";
+    font-size: 60px;
+    color: #240b33;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.homepicture {
+    background-image: url("https://cnchospital.in/wp-content/uploads/2020/06/CNC-Banner1.jpeg");
+    background-size: cover;
+    height: 90vh;
+    border-radius: 9px;
+}
+
+.heading {
+    font-family: "playball";
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 250;
+}
+
+.buttonsconatiner {
+    background-color: lightblue;
+    height: 65vh;
+    width: 45vw;
+    padding: 30px;
+}
+
+.buttons {
+    height: 50px;
+    width: 30vw;
+    background-color: #7caeeb;
+    margin-left: 10px;
+    border-width: 0px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 27px;
+    color: white;
+    text-align: left;
+    font-weight: 500;
+}
+
+.logocontainer {
+    background-image: url("https://images1-fabric.practo.com/murugesan-memorial-hospital-chennai-1474881529-57e8e7f927ffb.jpg");
+    background-size: cover;
+    height: 73vh;
+    width: 40vw;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.dhoni {
+    color: green;
+}
+
+.kohli {
+    color: brown;
+}
+
+.gill {
+    background-color: lightgrey;
+}
+
+.kl {
+    background-color: skyblue;
+}
+
+.sky {
+    height: 50vh;
+}
